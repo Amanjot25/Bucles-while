@@ -1,14 +1,14 @@
 # coding: utf-8
 
-a = float(input("Escriba un número: "))
-b = float(input("Escriba un número mayor que " + str(a) + ": "))
+num1 = float(input("Escribe un número: "))
+num2 = float(input("Escribe un número mayor que " + str(num1) + ": "))
 
-while b > a:
-    b = float(input("Escriba un número mayor que " + str(a) + ": "))
+while num2 > num1:
+    num2 = float(input("Escribe un número mayor que " + str(num1) + ": "))
 
-print()
-print(b, "no es mayor que", str(a) + ".")
+print(num2, "no es mayor que", str(num1) + ".")
 print("FIN")
+
 
  
    
